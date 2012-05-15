@@ -1,5 +1,4 @@
 /*global require*/
-require('require_patch').monkeypatch(this);
 var myapp = require("Global");
 
 myapp.var1 = "Hello World 1";
